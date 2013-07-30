@@ -12,7 +12,10 @@ http://www.wunderground.com/weather/api/d/login.html
     city = Philadelphia
     hour_cap = 12  
 
-## 3.) Set up a cron job
+## 3.) Point getPrecip.py to your config file
+See line 7.
+
+## 4.) Set up a cron job
     Email yourself the forecast every morning at 7am:
 
     Add a task to your crontab:
