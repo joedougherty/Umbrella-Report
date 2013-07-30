@@ -1,5 +1,7 @@
 # Umbrella Report
 
+Free yourself from the tyranny of weather information overload.
+
 ## 1.) Get an API key from Wunderground.com
 http://www.wunderground.com/weather/api/d/login.html
 
