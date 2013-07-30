@@ -9,7 +9,7 @@ parser.read('') #point to config file
 api_key = parser.get('weather', 'api_key')
 state = parser.get('weather', 'state')  #two-letter state abbreviation
 city = parser.get('weather', 'city')    
-hour_cap = parser.get('weather', 'hour_cap')
+hour_cap = parser.get('weather', 'hour_cap') || 12
 
 target = 'http://api.wunderground.com/api/'+ api_key +'/hourly/q/'+ state +'/'+ city +'.json'
 
