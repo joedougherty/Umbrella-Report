@@ -1,7 +1,7 @@
 import requests
 import json
 from ConfigParser import SafeConfigParser
-from pprint import pprint
+
 
 parser = SafeConfigParser()
 parser.read('') #point to config file
